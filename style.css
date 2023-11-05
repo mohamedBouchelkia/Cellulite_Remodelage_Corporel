@@ -1,0 +1,224 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#282A35 ;
+  height: 2cm;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.barreNavigation{
+  padding: 0;
+  display: flex;
+  height: 2cm;
+}
+.nom_entreprise {
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+}
+.logo{
+  max-width:min-content;
+  height: 2cm;
+}
+.barreNavigation a {
+  transition: all 0.3s ease 0s;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 20px;
+  flex-grow: 1; 
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: flex; 
+  align-items: center; 
+} 
+.barreNavigation a:hover {
+  background-color: #131418;
+}
+#active {
+  background-color: #401d67;
+}
+#active:hover {
+  border: none;
+  background-color: #5a318b;
+}
+.titre{
+  color: rgb(177, 177, 30);
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:xxx-large;
+  margin: 0;
+}
+.image_head{
+  background: url(fond_1.jpg) no-repeat ;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  background-size: cover ;
+  }
+  .presentation{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: #ffffff;
+    line-height: 2em;
+  }
+  .slogan{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .corps{
+    min-height: 100vh;
+    margin: 2cm 1em 0 1em;
+  }
+  .missions h3{
+    text-decoration: underline;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .missions li{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .realisations h3{
+    text-decoration: underline;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .realisations li{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .footer{
+    display: flex ;
+    background-color: #282A35; 
+    color: #ffffff;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+    .nos_informations{
+    margin: 0 1em 0 1em;
+    }
+  .lien{
+    text-decoration: none;
+    font-size: large;
+  }
+  .form_container {
+    display: inline;
+  }
+  .emplacement {
+    width: 20%;
+    float: left;
+  }
+  .formulaire {
+    background-color: #d4d4d4;
+    width: 50%;
+    padding: 9px;
+    float: right; 
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #7c7c7c;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 12px;
+    font-size:medium;
+  }
+  input[type=submit], button {
+    background-color: rgba(75,88,122,0.6026785714285714) ;
+    color: white;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover{
+    background-color: #401d67;
+  }
+  button:hover{
+    background-color: #401d67;
+  }
+  #text_prix{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 50%;
+    text-justify:auto;
+    text-align: left;
+    margin-left: 25%;
+  }
+  .table_appart{
+    align-items: center;
+    }
+  table{
+    text-align: left;
+    width: 50%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  tr{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    }
+  th{
+    padding-bottom: 1em;
+  }
+  td{
+    padding-bottom: 1em;
+  }
+  .a_propos_de_la_societe{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    margin: 2cm 1em 0 1em;
+    width: 50%;
+  }
+  .a_propos_de_la_societe p{
+    text-justify:distribute;
+
+  }
+  .coordonnees, .liens_rapides{
+    width: 50%;
+    margin-left: 10%;
+  }
+  .liens_rapides a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 2;
+  }
+  .titre_cartes_logements{
+    text-align: center;
+  }
+  .cartes_logements{
+    display: flex;
+  }
+  .carte {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 23%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .caracteristiques{
+    line-height: 2;
+    width: 60%;
+  }
+  .services{
+    width: 80%;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .missions{
+    float: right;
+    border-image-source:url('favicon.png');
+    border-image-slice: 30    ; 
+    border-image-width: 10px;
+  }
+  .missions:hover{
+  color:red;
+  }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img class="logo" src="logo.png" alt="logo_de_societe">
+        </div>
+        <div>
+            <h1 class="nom_entreprise">Société d'habitation populaire</h1>
+        </div>
+        <div class="barreNavigation">
+            <a href="accueil.html">Accueil</a>
+            <a href="appartement.html">Parc immobilier</a>
+            <a href="services.html">Services</a>
+            <a id="active" href="contact.html">Contact</a>
+            <a href="apropos.html">A propos</a>
+        </div>
+    </div>
+    <div class="corps">
+        <div class="form_container">
+            <div class="emplacement">
+                <img src="emplacement.PNG">
+            </div>
+            <form class="formulaire" action="/action_page.php" method="post">
+                <label for="fname">Nom:</label><br>
+                <input type="text" id="nom" name="nom"><br>
+                <label for="lname">Prénom:</label><br>
+                <input type="text" id="prenom" name="prenom"><br>
+                <label for="courriel">Courriel:</label><br>
+                <input type="text" id="courriel" name="courriel"><br>
+                <label for="adresse">Adresse:</label><br>
+                <input type="text" id="adresse" name="adresse"
+                    placeholder="appartement, immeuble, boulevard / Avenue, code postale, ville"><br>
+                <label for="select">Sujet:</label><br>
+                <select name="options" id="select">
+                    <option value="">--Choisissez une option--</option>
+                    <option value="location">location d'appartement</option>
+                    <option value="achat">Achat d'appartement</option>
+                    <option value="bail">Cession du bail</option>
+                    <option value="paiement">Facturation / Paiement</option>
+                    <option value="conciergerie">Service de conciergerie</option>
+                    <option value="autres">autres</option>
+                </select><br>
+                <label for="message">Message:</label><br>
+                <textarea type="textarea" id="message" name="message" rows="7" cols="30"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="coordonnees">
+            <h4>Coordonnées</h4>
+            <p>Adresse : 11460, Avenue Pelletier, Montréal</p>
+            <p>Téléphone : (438) 988-8185</p>
+            <p>Courriel : jg391950@ens.uqam.ca</p>
+        </div>
+        <div class="liens_rapides">
+            <h4>Liens Rapides</h4>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
