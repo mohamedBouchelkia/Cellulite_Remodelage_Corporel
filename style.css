@@ -191,10 +191,12 @@
     text-decoration: none;
     color: #ffffff;
     line-height: 2;
-  }   
-  .cartes_services{
+  }
+  .titre_cartes_logements{
+    text-align: center;
+  }
+  .cartes_logements{
     display: flex;
-    margin-bottom: 2em;
   }
   .carte {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
@@ -202,7 +204,6 @@
     margin: auto;
     text-align: center;
     font-family: arial;
-    border-radius: 5px;
   }
   .caracteristiques{
     line-height: 2;
